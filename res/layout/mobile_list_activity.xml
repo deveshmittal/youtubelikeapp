@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <ListView
+        android:id="@+id/legslen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#ff0000"
+        android:dividerHeight="2px"
+        >
+    </ListView>
+    <ImageView
+    android:id="@+id/imgview"
+    android:layout_width="180dip"
+    android:layout_height="180dip"
+    android:layout_gravity="bottom|right"
+    android:src="@drawable/android"
+    
+ />
+
+    
+</FrameLayout>
